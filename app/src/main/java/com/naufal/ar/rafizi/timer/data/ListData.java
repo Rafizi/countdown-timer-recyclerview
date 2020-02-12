@@ -15,7 +15,7 @@ public class ListData {
             "Soepomo",
             "Tan Malaka"
     };
-    static ArrayList<ModelList> getListData() {
+    public static ArrayList<ModelList> getData() {
         ArrayList<ModelList> list = new ArrayList<>();
         for (int position = 0; position < heroNames.length; position++) {
             ModelList listModel = new ModelList();
